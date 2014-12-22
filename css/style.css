@@ -27,7 +27,6 @@ img {
 	display:block;
 	height:1%;
 	line-height:0;
-	visibility:hidden;
 }
 .btn {
 	background: url(../images/bg-button.png) no-repeat;
