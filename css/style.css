@@ -104,47 +104,46 @@ img {
 #navigation li.active a {
 	color: #f99600;
 }
-#adbox {
-	background: url(../images/bg-adbox.jpg) repeat-x left top;
+#main {
 	height: 250px;
 	padding: 20px 0;
 }
-#adbox > div {
+#main > div {
 	width: 800px;
 	margin: 0 auto;
 	padding: 0 80px;
 }
-#adbox > div img {
+#main > div img {
 	float: right;
 	margin-left: 60px;
 }
-#adbox h1 {
+#main h1 {
 	color: #3e3e3e;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 30px;
 	margin: 0 0 30px;
 }
-#adbox h2 {
+#main h2 {
 	color: #2c2c2c;
 	font-size: 24px;
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0 0 12px;
 }
-#adbox p {
+#main p {
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0;
 }
-#adbox p span {
+#main p span {
 	display: block;
 	font-size: 12px;
 	width: 360px;
 	padding: 24px 0;
 	text-align: center;
 }
-#adbox p span b {
+#main p span b {
 	font-weight: normal;
 	display: block;
 	width: 256px;
