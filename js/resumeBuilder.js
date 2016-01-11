@@ -15,7 +15,7 @@ This is empty on purpose! Your code to build the resume will go here.
   },
   "WelcomeMessage" : "Welcome!",
   "skills": ["Program Management", "User Interface Design", "Mechanical Engineering", "Creative Problem Solver", "Technical Writer" ],
-  "bioPic" : "images/headshot.png"
+  "bioPic" : "images/HeadShot.png"
  }
 
  var education = {
