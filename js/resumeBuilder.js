@@ -21,22 +21,6 @@ This is empty on purpose! Your code to build the resume will go here.
  var education = {
 	"schools": [
 	{
-		"name": "Bellevue College",
-		"location": "Bellevue, Washington",
-		"degree": "Continuing Education",
-		"majors": "Technical Writing, Professional Editing, Chinese II, Korean 4",
-		"dates": "2013 - 2015",
-		"url": "http://example.com"
-	},
-	{
-		"name": "Seoul National University",
-		"location": "Seoul, South Korea",
-		"degree": "Continuing Education - Study Abroad",
-		"majors": "Korean Language Immersion Program",
-		"dates": "May - Aug 2013",
-		"url": "http://example.com"
-	},
-	{
 		"name": "Franklin W. Olin College of Engineering",
 		"location": "Needham, MA, US",
 		"degree": "B.S.in Mechanical Engineering",
@@ -58,6 +42,22 @@ This is empty on purpose! Your code to build the resume will go here.
 		"degree": "Study Abroad - Fulfilled B.S. requirements",
 		"majors": "Human Factors in Engineering, Chinese, Engineering Economy",
 		"dates": "2012",
+		"url": "http://example.com"
+	},
+	{
+		"name": "Bellevue College",
+		"location": "Bellevue, Washington",
+		"degree": "Continuing Education",
+		"majors": "Technical Writing, Professional Editing, Chinese II, Korean 4",
+		"dates": "2013 - 2015",
+		"url": "http://example.com"
+	},
+	{
+		"name": "Seoul National University",
+		"location": "Seoul, South Korea",
+		"degree": "Continuing Education - Study Abroad",
+		"majors": "Korean Language Immersion Program",
+		"dates": "May - Aug 2013",
 		"url": "http://example.com"
 	},
 	{
@@ -141,7 +141,7 @@ This is empty on purpose! Your code to build the resume will go here.
  		"dates": "Dec 2011",
  		"description": "Built a mechanical film projector out of recycled materials on a team of three mechanical engineers. The projector was 3D modeled in Solidworks and prototyped using a mill, lathe, welding and 3D printing.",
  		"url": "https://www.dropbox.com/s/7ek50v0qmlftecz/FinalFinalReport.pdf?dl=0",
- 		"images": ["images/projector1.jpg","images/projector2.png"]
+ 		"images": ["images/projector1.JPG","images/projector2.png"]
  	},
  	{
  		"title": "Jigsaw Casing 3D Model",
@@ -157,7 +157,7 @@ This is empty on purpose! Your code to build the resume will go here.
  		"description": "Independently designed and 3D modeled a robotic arm. Used Solidworks for the 3D model and ran finite element analysis on the main components. This was my final project for Mechanical Design.",
  		"url": "https://www.dropbox.com/s/u3sdf0ryucrgrda/ROBOTIC_ARM_MARIAH_DUNN.pdf?dl=0",
  		//"images": ["images/roboticarm1.jpg", "images/roboticarm2.png", "images/roboticarm3.png", "images/roboticarm4.jpg", "images/roboticarm5.png", "images/roboticarm6.png", "images/roboticarm7.png"]
- 		"images": ["images/roboticarm4.jpg", "images/roboticarm2.png",  "images/roboticarm5.png", "images/roboticarm6.png", "images/roboticarm7.png"]
+ 		"images": ["images/roboticarm4.JPG", "images/roboticarm2.png",  "images/roboticarm5.png", "images/roboticarm6.png", "images/roboticarm7.png"]
  	},
  	{
  		"title": "Printer Battery Housing 3D Model",
@@ -211,14 +211,14 @@ This is empty on purpose! Your code to build the resume will go here.
  		"description": "Designed and built a flamboyant squid worm, a type of sea creature. Used Solidworks for the 3D model and motion design. Prototyping was done with water jet printing of aluminum. Worked on a team of six engineers.",
  		"url": "https://www.dropbox.com/s/60fxex9km05gk5f/Mariah%20Dunn%20FSW.pdf?dl=0",
  		//"images": ["images/fsw1.png", "images/fsw2.jpg", "images/fsw3.png", "images/fsw4.jpg", "images/fsw5.jpg", "images/fsw6.png"]
- 		"images": ["images/fsw1.png", "images/fsw3.png", "images/fsw4.jpg"]
+ 		"images": ["images/fsw1.png", "images/fsw3.png", "images/fsw4.JPG"]
  	},
  	 	{
  		"title": "3D Olin Logo Design",
  		"dates": "Feb 2011",
  		"description": "Designed and 3D modeled a 3D Olin logo. Used Solidworks for the 3D model. Worked independently for a Mechanical Prototyping class. ",
  		"url": "https://www.dropbox.com/s/kv6f3ygxdinpy8g/OLIN-Mariah.pdf?dl=0",
- 		"images": ["images/olin1.png", "images/olin2.png", "images/olin3.png"]
+ 		"images": ["images/Olin1.png", "images/Olin2.png", "images/Olin3.png"]
  	},
  	
  	{
@@ -226,14 +226,14 @@ This is empty on purpose! Your code to build the resume will go here.
  		"dates": "Dec 2010",
  		"description": "Worked with Preserve, a sustainable manufacturing company to investigate calcium carbonate fillers for use in recycled polypropylene. Worked with a team of six to determine the material properties of the combined substance. Specifically, I developed guidelines and tested wear and degradation of the material. This was part of a Material Science Failure Analysis Class.",
  		"url": "https://www.dropbox.com/s/8ve03rklx8kb4in/PreserveFinalPaper3.pdf?dl=0",
- 		"images": ["images/preserve.png"]
+ 		"images": ["images/Preserve.png"]
  	},
  	{
  		"title": "Safety Glasses Failure",
  		"dates": "Nov 2010",
  		"description": "Investigated the failure analysis of a pair of polycarbonate safety glasses. Used a scanning electron microscope to conduct fractographic analysis. Used Solidworks to conduct finite element anaylsis to confirm the locations of stress concentrations.",
  		"url": "https://www.dropbox.com/s/tdkgjn4rvsvu6u4/Safetyglasses_meryl_mariah.pdf?dl=0",
- 		"images": ["images/glasses.jpg", "images/glasses1.jpg", "images/glasses4.png"]
+ 		"images": ["images/glasses.JPG", "images/glasses1.jpg", "images/glasses4.png"]
  	},
  	{
  		"title": "MEMS Wankel Engine",
