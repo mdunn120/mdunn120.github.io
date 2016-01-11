@@ -203,7 +203,7 @@ This is empty on purpose! Your code to build the resume will go here.
  		"description": "Studied care takers of blind children to learn about the problems they face. Designed a specialized locket that took into account senses other than site to allow parents and children to connect on a more personal level, addressed the problem that sometimes parents find it difficult to connect with their blind child. Worked on a team of four engineers. This class was for a user oriented centered design class.",
  		"url": "",
  		//"images": ["images/ep1.png", "images/ep2.png", "images/ep3.jpg", "images/ep4.jpg", "images/ep5.jpg"]
- 		"images": ["images/ep1.png", "images/ep3.jpg", "images/ep4.jpg"]
+ 		"images": ["images/ep1.png", "images/ep3.JPG", "images/ep4.JPG"]
  	},
  	{
  		"title": "Animatronic Flamboyant Squid Worm",
