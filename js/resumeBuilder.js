@@ -35,9 +35,7 @@ This is empty on purpose! Your code to build the resume will go here.
 		"majors": "Writing Historical Fiction, Writing Short Narrative",
 		"dates": "2013",
 		"url": "http://example.com"
-	}
-	],
-	"otherSchools": [
+	},
 	{
 		"name": "National University of Singapore",
 		"location": "Singapore, Singapore",
@@ -45,7 +43,9 @@ This is empty on purpose! Your code to build the resume will go here.
 		"majors": "Human Factors in Engineering, Chinese, Engineering Economy",
 		"dates": "2012",
 		"url": "http://example.com"
-	},
+	}	
+	],
+	"otherSchools": [
 	{
 		"name": "Bellevue College",
 		"location": "Bellevue, Washington",

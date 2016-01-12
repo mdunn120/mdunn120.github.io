@@ -125,6 +125,10 @@ function initializeMap() {
       locations.push(school.location);
     });
 
+    education.otherSchools.forEach(function(school){
+      locations.push(school.location);
+    });
+
     // iterates through work locations and appends each location to
     // the locations array. Note that forEach is used for array iteration
     // as described in the Udacity FEND Style Guide: 
