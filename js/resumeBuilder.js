@@ -15,7 +15,7 @@ This is empty on purpose! Your code to build the resume will go here.
   },
   "WelcomeMessage" : "Welcome!",
   "skills": ["Program Management", "User Interface Design", "Mechanical Engineering", "Creative Problem Solver", "Technical Writer" ],
-  "bioPic" : "images/HeadShot.png"
+  "bioPic" : "images/profile.jpg"
  }
 
  var education = {
@@ -35,7 +35,9 @@ This is empty on purpose! Your code to build the resume will go here.
 		"majors": "Writing Historical Fiction, Writing Short Narrative",
 		"dates": "2013",
 		"url": "http://example.com"
-	},
+	}
+	],
+	"otherSchools": [
 	{
 		"name": "National University of Singapore",
 		"location": "Singapore, Singapore",
@@ -351,7 +353,6 @@ for (job in work.jobs){
 }
 
 function displayEducation(){
-//for (job in work.jobs){
 for (school in education.schools){
  	$("#education").append(HTMLschoolStart);
  	var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[school].name);
@@ -365,17 +366,32 @@ for (school in education.schools){
  	var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors);
  	$(".education-entry:last").append(formattedSchoolMajor);
  }
- 
- for (onlineCourse in education.onlineCourses){
- 	var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[onlineCourse].title);
- 	var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[onlineCourse].school);
- 	var formattedTitleSchool = formattedOnlineTitle + formattedOnlineSchool;
- 	$(".education-entry:last").append(formattedTitleSchool);
- 	var formattedOnlineDate = HTMLonlineDates.replace("%data%", education.onlineCourses[onlineCourse].dates);
-	$(".education-entry:last").append(formattedOnlineDate);
- 	
- }
+}
 
+function displayContinuingEducation() {
+ for (onlineCourse in education.onlineCourses){
+ 	$("#continuing-education").append(HTMLcontEduStart);
+ 	var formattedOnlineTitle = HTMLcontEduTitle.replace("%data%", education.onlineCourses[onlineCourse].title);
+ 	var formattedOnlineSchool = HTMLcontEduSchool.replace("%data%", education.onlineCourses[onlineCourse].school);
+ 	var formattedTitleSchool = formattedOnlineTitle + formattedOnlineSchool;
+ 	$(".continuing-education-entry:last").append(formattedTitleSchool);
+ 	var formattedOnlineDate = HTMLcontEduDates.replace("%data%", education.onlineCourses[onlineCourse].dates);
+	$(".continuing-education-entry:last").append(formattedOnlineDate);
+ }	
+
+for (school in education.otherSchools){
+ 	$("#continuing-education").append(HTMLcontEduStart);
+ 	var formattedSchoolName = HTMLschoolName.replace("%data%", education.otherSchools[school].name);
+ 	var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.otherSchools[school].degree);
+ 	var formattedNameDegree = formattedSchoolName + formattedSchoolDegree;
+ 	$(".continuing-education-entry:last").append(formattedNameDegree);
+ 	var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.otherSchools[school].location);
+ 	$(".continuing-education-entry:last").append(formattedSchoolLocation);
+ 	var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.otherSchools[school].dates);
+ 	$(".continuing-education-entry:last").append(formattedSchoolDates);
+ 	var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.otherSchools[school].majors);
+ 	$(".continuing-education-entry:last").append(formattedSchoolMajor);
+ } 
 }
 
 function displayProjects(){
@@ -401,13 +417,13 @@ for (project in projects.projects){
 
 function displayLetsConnect(){
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);  
-	$("#lets-connect").append(formattedMobile);
+	$("#footerContacts").append(formattedMobile);
     var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);  
-	$("#lets-connect").append(formattedEmail);
+	$("#footerContacts").append(formattedEmail);
 	var formattedLinkedin = HTMLlinkedin.replace("%data%", bio.contacts.linkedin);  
-	$("#lets-connect").append(formattedLinkedin);
+	$("#footerContacts").append(formattedLinkedin);
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);  
-	$("#lets-connect").append(formattedGithub);
+	$("#footerContacts").append(formattedGithub);
 }
 
 $("#mapDiv").append(googleMap);
@@ -415,8 +431,10 @@ $("#mapDiv").append(googleMap);
 displayBio();
 displayWork();
 displayEducation();
+displayContinuingEducation();
 displayProjects();
 displayLetsConnect();
+
 
 //Get a users click locations
 //$(document).click(function(loc){
