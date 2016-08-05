@@ -73,9 +73,9 @@ This is empty on purpose! Your code to build the resume will go here.
 	],
 	"onlineCourses": [
 	{
-		"title": "Online: Font End Web Development Nano-Degree",
+		"title": "Online: Front End Web Development Nano-Degree",
 		"school": "Udacity",
-		"dates": "Nov 2015 - July 2016",
+		"dates": "Nov 2015 - Aug 2016",
 		"url": "http://example.com"
 	},
 	{
