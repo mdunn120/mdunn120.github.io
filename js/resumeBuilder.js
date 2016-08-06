@@ -14,7 +14,7 @@ This is empty on purpose! Your code to build the resume will go here.
     "location": "Redmond"
   },
   "WelcomeMessage" : "Welcome!",
-  "skills": ["Program Management", "User Interface Design", "Mechanical Engineering", "Creative Problem Solver", "Technical Writer" ],
+  "skills": ["Program Management", "User Interface Design", "Creative Problem Solver", "Technical Writer" ],
   "bioPic" : "images/profile.jpg"
  }
 
